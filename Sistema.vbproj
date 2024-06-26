@@ -15,6 +15,15 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\LOCTECH\LOCTECH.vbproj" />
+    <ProjectReference Include="..\Oficina-Mecanica\Oficina Mecânica.vbproj" />
+    <ProjectReference Include="..\Padaria\Padaria.vbproj" />
+    <ProjectReference Include="..\Projeto-Caixa\Projeto Caixa.vbproj" />
+    <ProjectReference Include="..\Sistema-de-Vendas\Sistema de Vendas.vbproj" />
+    <ProjectReference Include="..\sistemaPIOXII.vb\Escola.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="My Project\Application.Designer.vb">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
