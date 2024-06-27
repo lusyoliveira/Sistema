@@ -15,6 +15,13 @@
   </ItemGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Configuration.ConfigurationManager" Version="8.0.0" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.8.6" />
+    <PackageReference Include="System.IO" Version="4.3.0" />
+    <PackageReference Include="System.ServiceProcess.ServiceController" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\LOCTECH\LOCTECH.vbproj" />
     <ProjectReference Include="..\Oficina-Mecanica\Oficina Mecânica.vbproj" />
     <ProjectReference Include="..\Padaria\Padaria.vbproj" />
