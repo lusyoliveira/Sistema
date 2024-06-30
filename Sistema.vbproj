@@ -23,11 +23,11 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\Caixa\Projeto Banco.vbproj" />
+    <ProjectReference Include="..\..\Escola\Escola.vbproj" />
     <ProjectReference Include="..\..\Locadora\Projeto Locadora.vbproj" />
     <ProjectReference Include="..\..\Oficina Mecânica\Oficina Mecânica.vbproj" />
     <ProjectReference Include="..\..\Padaria\Padaria.vbproj" />
     <ProjectReference Include="..\..\Sistema de Vendas\Sistema de Vendas.vbproj" />
-    <ProjectReference Include="..\..\sistemaPIOXII.vb\Escola.vbproj" />
   </ItemGroup>
 
   <ItemGroup>
