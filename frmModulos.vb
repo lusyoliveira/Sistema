@@ -1,9 +1,7 @@
 ﻿Imports OficinaMecanica
 Imports Padaria
-Imports ProjetoLocadora
 Imports ProjetoBanco
 Imports SistemaVendas
-Imports Escola
 Public Class frmModulos
     Private Sub btnOficina_Click(sender As Object, e As EventArgs) Handles btnOficina.Click
         Dim janela As New OficinaMecanica.frmPrincipal()
@@ -19,6 +17,12 @@ Public Class frmModulos
         Dim janela As New ProjetoLocadora.frmPrincipal()
         janela.Show()
     End Sub
+
+    Private Sub btnEscola_Click(sender As Object, e As EventArgs) Handles btnEscola.Click
+        'Dim janela As New Escola.frmPrincipal()
+        'janela.Show()
+    End Sub
+
     Private Sub btnBanco_Click(sender As Object, e As EventArgs) Handles btnBanco.Click
         Dim janela As New ProjetoBanco.frmPrincipal()
         janela.Show()
