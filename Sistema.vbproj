@@ -22,8 +22,8 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\Escola.vb\Escola.vbproj" />
-    <ProjectReference Include="..\LOCTECH\Loctech.vbproj" />
+    <ProjectReference Include="..\Escola\Escola.vbproj" />
+    <ProjectReference Include="..\LOCTECH\Projeto Locadora.vbproj" />
     <ProjectReference Include="..\Oficina-Mecanica\Oficina Mecânica.vbproj" />
     <ProjectReference Include="..\Padaria\Padaria.vbproj" />
     <ProjectReference Include="..\Projeto-Caixa\Projeto Banco.vbproj" />
