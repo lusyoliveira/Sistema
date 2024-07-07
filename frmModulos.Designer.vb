@@ -25,17 +25,16 @@ Partial Class frmModulos
         btnOficina = New Button()
         btnPadaria = New Button()
         btnLocadora = New Button()
-        btnEscola = New Button()
         btnBanco = New Button()
-        btnVendas = New Button()
         SuspendLayout()
         ' 
         ' btnOficina
         ' 
         btnOficina.Font = New Font("Segoe UI", 18F, FontStyle.Regular, GraphicsUnit.Point, CByte(0))
-        btnOficina.Location = New Point(222, 115)
+        btnOficina.Location = New Point(112, 70)
+        btnOficina.Margin = New Padding(3, 2, 3, 2)
         btnOficina.Name = "btnOficina"
-        btnOficina.Size = New Size(296, 49)
+        btnOficina.Size = New Size(259, 37)
         btnOficina.TabIndex = 0
         btnOficina.Text = "Oficina  Mecânica"
         btnOficina.TextAlign = ContentAlignment.MiddleLeft
@@ -44,9 +43,10 @@ Partial Class frmModulos
         ' btnPadaria
         ' 
         btnPadaria.Font = New Font("Segoe UI", 18F)
-        btnPadaria.Location = New Point(222, 191)
+        btnPadaria.Location = New Point(112, 121)
+        btnPadaria.Margin = New Padding(3, 2, 3, 2)
         btnPadaria.Name = "btnPadaria"
-        btnPadaria.Size = New Size(296, 49)
+        btnPadaria.Size = New Size(259, 37)
         btnPadaria.TabIndex = 1
         btnPadaria.Text = "Padaria"
         btnPadaria.TextAlign = ContentAlignment.MiddleLeft
@@ -55,60 +55,37 @@ Partial Class frmModulos
         ' btnLocadora
         ' 
         btnLocadora.Font = New Font("Segoe UI", 18F)
-        btnLocadora.Location = New Point(222, 262)
+        btnLocadora.Location = New Point(112, 174)
+        btnLocadora.Margin = New Padding(3, 2, 3, 2)
         btnLocadora.Name = "btnLocadora"
-        btnLocadora.Size = New Size(296, 49)
+        btnLocadora.Size = New Size(259, 37)
         btnLocadora.TabIndex = 2
         btnLocadora.Text = "Locadora"
         btnLocadora.TextAlign = ContentAlignment.MiddleLeft
         btnLocadora.UseVisualStyleBackColor = True
         ' 
-        ' btnEscola
-        ' 
-        btnEscola.Font = New Font("Segoe UI", 18F)
-        btnEscola.Location = New Point(222, 327)
-        btnEscola.Name = "btnEscola"
-        btnEscola.Size = New Size(296, 49)
-        btnEscola.TabIndex = 3
-        btnEscola.Text = "Escola"
-        btnEscola.TextAlign = ContentAlignment.MiddleLeft
-        btnEscola.UseVisualStyleBackColor = True
-        ' 
         ' btnBanco
         ' 
         btnBanco.Font = New Font("Segoe UI", 18F)
-        btnBanco.Location = New Point(222, 395)
+        btnBanco.Location = New Point(112, 224)
+        btnBanco.Margin = New Padding(3, 2, 3, 2)
         btnBanco.Name = "btnBanco"
-        btnBanco.Size = New Size(296, 49)
+        btnBanco.Size = New Size(259, 37)
         btnBanco.TabIndex = 4
         btnBanco.Text = "Banco"
         btnBanco.TextAlign = ContentAlignment.MiddleLeft
         btnBanco.UseVisualStyleBackColor = True
         ' 
-        ' btnVendas
-        ' 
-        btnVendas.Font = New Font("Segoe UI", 18F)
-        btnVendas.Location = New Point(222, 460)
-        btnVendas.Name = "btnVendas"
-        btnVendas.Size = New Size(296, 49)
-        btnVendas.TabIndex = 5
-        btnVendas.Text = "Vendas"
-        btnVendas.TextAlign = ContentAlignment.MiddleLeft
-        btnVendas.UseVisualStyleBackColor = True
-        ' 
         ' frmModulos
         ' 
-        AutoScaleDimensions = New SizeF(8F, 20F)
+        AutoScaleDimensions = New SizeF(7F, 15F)
         AutoScaleMode = AutoScaleMode.Font
-        ClientSize = New Size(914, 600)
-        Controls.Add(btnVendas)
+        ClientSize = New Size(659, 427)
         Controls.Add(btnBanco)
-        Controls.Add(btnEscola)
         Controls.Add(btnLocadora)
         Controls.Add(btnPadaria)
         Controls.Add(btnOficina)
         FormBorderStyle = FormBorderStyle.FixedSingle
-        Margin = New Padding(3, 4, 3, 4)
         Name = "frmModulos"
         StartPosition = FormStartPosition.CenterScreen
         Text = "Módulos"
@@ -118,8 +95,6 @@ Partial Class frmModulos
     Friend WithEvents btnOficina As Button
     Friend WithEvents btnPadaria As Button
     Friend WithEvents btnLocadora As Button
-    Friend WithEvents btnEscola As Button
     Friend WithEvents btnBanco As Button
-    Friend WithEvents btnVendas As Button
 
 End Class

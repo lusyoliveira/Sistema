@@ -38,7 +38,7 @@ Namespace My
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
         Protected Overrides Sub OnCreateSplashScreen()
-            Me.SplashScreen = Global.Sistema.SplashScreen1
+            Me.SplashScreen = Global.Sistema.spTelaInicial
         End Sub
         
         <Global.System.Diagnostics.DebuggerStepThroughAttribute()>  _
