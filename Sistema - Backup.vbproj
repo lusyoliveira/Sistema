@@ -22,10 +22,10 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\LOCTECH\Projeto Locadora.vbproj" />
-    <ProjectReference Include="..\Oficina-Mecanica\Oficina Mecânica.vbproj" />
-    <ProjectReference Include="..\Padaria\Padaria.vbproj" />
-    <ProjectReference Include="..\Projeto-Caixa\Projeto Banco.vbproj" />
+    <ProjectReference Include="..\..\Caixa\Projeto Banco.vbproj" />
+    <ProjectReference Include="..\..\Locadora\Projeto Locadora.vbproj" />
+    <ProjectReference Include="..\..\Oficina Mecânica\Oficina Mecânica.vbproj" />
+    <ProjectReference Include="..\..\Padaria\Padaria.vbproj" />
   </ItemGroup>
 
   <ItemGroup>
